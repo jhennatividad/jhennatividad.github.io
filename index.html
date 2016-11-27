@@ -9,18 +9,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Portfolio: Jin</title>
+    <title>Cupcake Doll</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,505 +30,152 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body>
+
+    <div class="brand">Cupcake Doll</div>
+    <div class="address-bar">1234 Camp 7 | Philippines, PH 90210 | 123.456.7890</div>
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+    <nav class="navbar navbar-default" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">Home</a>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Cupcake Doll</a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                    <li>
+                        <a href="about.html">About</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
+                    <li>
+                        <a href="blog.html">Recipe</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
+                    <li>
+                        <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
+        <!-- /.container -->
     </nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carousel-example-generic" class="carousel slide">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators hidden-xs">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="http://signorina.me/wp-content/uploads/2014/12/1403888199_yummy_cup_cake_wallpaper.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="http://cupcakepedia.files.wordpress.com/2013/03/chocolate-strawberry-cupcakes.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img class="img-responsive img-full" src="http://4.bp.blogspot.com/-s88sK7ebWFs/U332JlmHiHI/AAAAAAACGZA/SZmS39NmUwE/s1600/12.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <span class="icon-prev"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <span class="icon-next"></span>
+                        </a>
+                    </div>
+                    <h2 class="brand-before">
+                        <small>Welcome to</small>
+                    </h2>
+                    <h1 class="brand-name">Cupcake Doll</h1>
+                    <hr class="tagline-divider">
+                    <h2>
+                        <small>By
+                            <strong>Natividad, Jin</strong>
+                        </small>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
                 <div class="col-lg-12">
-                    <img class="https://mir-s3-cdn-cf.behance.net/project_modules/disp/9c030832407121.56811b0a04819.jpg" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/9c030832407121.56811b0a04819.jpg" alt="">
-                    <div class="intro-text">
-                        <span class="name">Jin Natividad</span>
-                        <hr class="star-light">
-                        <span class="skills">Web Developer </span>
-                    </div>
+                    <hr>
+                    <h2 class="intro-text text-center"> Welcome! 
+                        <strong>Cupcake Doll</strong>
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left" src="data:image/jpeg;base64,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" alt="">
+                    <hr class="visible-xs">
+                    <p>Whether it's their beautiful frosting, their petite size, or their ability to light up a smile, cupcakes really do have ultimate treat appeal. Every generation loves them and even the most grumpy can't help but help themselves to these tasty pieces of art.
+Cupcakes come in many varieties and sizes but there are a few factors that are always the same. Cupcakes are generally baked in muffin pans that are lined with baking paper. They are small in size and are usually frosted and decorated. The best thing about cupcakes is that you can be as basic or as unique as you want with them. Almost any type of cake or brownie can be made into a cupcake with some tweaks of the recipe and a little ingenuity.</p>
+                    <p>A huge thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank">Death to the Stock Photo</a> for allowing us to use the beautiful photos that make this template really come to life. When using this template, make sure your photos are decent. Also make sure that the file size on your photos is kept to a minumum to keep load times to a minimum.</p>
+                    <p>Cupcakes may seem americanized or westernized but you can find cupcakes almost anywhere you go. Many great classic cupcakes can be served frosted, like Chocolate Buttercream Cupcakes or Mint Chocolate Cupcakes. e</p>
                 </div>
             </div>
         </div>
-    </header>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+                        <strong> Cupcake Doll </strong>
+                    </h2>
+                    <hr>
+                    <p>The pioneer in gourmet cupcakes, Cupcakes is committed to sharing happiness with every bite of its delicious cupcakes—and with more stores and products coming up soon, more and more people will get to enjoy its sweetness.</p>
+                    <p>Oh how sweet! You can’t go wrong with pink and white color palette for a cupcake website design. The attention-grabbing slider showcase their yummy creation and what’s new info to keep customers updated..</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                       <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/Resume.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/Project.PNG" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/CupcakeDoll.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Your Website 2016
-                    </div>
+                    <p>Copyright &copy; Your Website 2014</p>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Resume</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/Resume.png" class="img-responsive" alt="">
-                            <p>My resume talks about my skills <a href="Resume.html">CLICK ME</a></p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project</h2>
-                            <hr class="star-primary">
-                             <img src="img/portfolio/Project.PNG" class="img-responsive" alt="">
-                            <p>Our Project is all about Cupcake. We design it fo all the cupcakes lover <a href="Project.html">CLICK ME</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">October 2016</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/CupcakeDoll.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">October 2016</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 
 </body>
 
